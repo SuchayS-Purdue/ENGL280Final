@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Final Project</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #111;
+        color: white;
+    }
+
+    .tabs {
+        display: flex;
+        background: #222;
+        border-bottom: 2px solid #333;
+    }
+
+    .tab {
+        padding: 15px 25px;
+        cursor: pointer;
+        border-right: 1px solid #333;
+        color: #ccc;
+        transition: 0.2s;
+    }
+
+    .tab:hover {
+        background: #333;
+        color: white;
+    }
+
+    .tab.active {
+        background: #444;
+        color: white;
+        font-weight: bold;
+    }
+
+    .page {
+        display: none;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page.active {
+        display: flex;
+    }
+
+    .content-box {
+        border: 1px solid red;
+        background: #1c1c1c;
+        padding: 15px;
+        margin-bottom: 20px;
+        max-width: 600px;
+        width: 100%;
+        border-radius: 12px; 
+    }
+
+
+    .content-box h3 {
+        margin-top: 0;
+        border-bottom: 1px solid #333;
+        padding-bottom: 6px;
+        align-items: center;
+    }
+
+    .citations {
+        margin: 0 0 1em 0;
+        padding-left: 1.5em;
+        text-indent: -1.5em;
+        line-height: 1.4;
+        word-wrap: break-word;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="tabs">
+    <div class="tab active" onclick="switchPage('blackops')">Call of Duty: Black Ops</div>
+    <div class="tab" onclick="switchPage('atomic')">Atomic Heart</div>
+    <div class="tab" onclick="switchPage('comparison')">Comparison</div>
+    <div class="tab" onclick="switchPage('works')">Works Cited</div>
+</div>
+
+<!-- Pages -->
+<div id="blackops" class="page active">
+    <h1>Call of Duty: Black Ops Cold War</h1>
+
+    <div class="content-box">
+        <h3>Context</h3>
+        <p> Call of Duty: Black Ops Cold War opens at the height of the Cold War, framing its narrative through a briefing led by U.S. President Ronald Reagan and senior CIA officials. In this opening scene, the player is introduced to the game’s central antagonist, Perseus, a shadowy Soviet operative believed to be orchestrating a global destabilization campaign. From the beginning, the story positions the conflict as an ideological struggle between the United States and the Soviet Union, filtered through the perspective of American intelligence. </p>
+        <p> The player assumes the role of Agent Bell, a CIA operative recruited into a covert task force led by Russell Adler, whose objective is to locate and eliminate Perseus. Throughout the campaign, Bell works closely with this CIA-led unit, carrying out missions across the globe that involve dismantling communist networks, assassinating key targets, and interfering with Soviet-backed operations. Early in the story, the player is told that Bell and Perseus previously served together during the Vietnam War, a shared history that supposedly established trust and granted Bell unique insight into Perseus’s methods.</p>
+        <p> As the narrative progresses, the scope of the conflict escalates with the revelation of Operation Green Light, a secret American contingency plan developed during the Red Scare. Under this operation, the United States planted nuclear devices beneath major Western European cities, intending to detonate them if the USSR ever gained control of those regions. Although presented as a defensive measure, Operation Green Light reveals the extreme lengths to which U.S. intelligence was willing to go in the name of containment. </p>
+        <p> At the campaign’s climax, the game radically reframes its narrative by revealing that Bell’s identity is entirely fabricated. In reality, Bell was once a member of Perseus’s inner circle and possessed critical knowledge about his plans. Specifically, he knew the location where Perseus and his operatives would retreat after triggering the Green Light detonations. The CIA, aware that Bell once held this information, captured, brainwashed, and reprogrammed Bell in an attempt to recover it. </p>
+        <p> Once Bell’s suppressed memories resurface, the player is confronted with a final choice. In the first outcome, Bell reveals the truth to the CIA task force, leading to Perseus’s defeat and the prevention of the nuclear detonations—an ending framed by the game as the “good” conclusion. In the second, Bell lies to the CIA, sides with Perseus, and enables the successful execution of Operation Green Light, resulting in widespread nuclear destruction—an ending labeled the “bad” conclusion. </p>
+    </div>
+
+    <div class="content-box">
+        <h3>Choice 1: CIA</h3>
+        <p> The labeling of this outcome as the “good ending” immediately reveals Call of Duty: Black Ops Cold War’s tendency to privilege American patriotism and reproduce Cold War–era historical bias. By framing the player’s cooperation with the CIA as morally correct, the game implicitly endorses U.S. intelligence practices while minimizing their ethical implications. </p>
+        <p> Agent Bell, the player character, is revealed late in the narrative to have originally worked closely with Perseus before being captured, brainwashed, and psychologically reconstructed by the CIA. Bell’s memories and identity are forcibly erased and rewritten to serve American intelligence objectives. In the so-called good ending, the CIA compels Bell to recover these “dead” memories—memories they themselves suppressed—in order to extract critical information about Perseus’s plans. This process highlights the instrumentalization of Bell as a disposable asset rather than an autonomous individual, yet the game does not meaningfully challenge the morality of this exploitation. </p>
+        <p> Choosing this ending, Bell discloses that Perseus and his operatives are hiding at Solovetsky (often referred to as Solovetsky Island), allowing Bell, Adler, and the CIA task force to launch a direct assault on the base. The operation succeeds, Perseus is eliminated, and the detonation of the Operation Green Light nuclear devices beneath Western European cities is prevented. Narratively and mechanically, the game frames this outcome as heroic, rewarding the player for loyalty to the CIA and the prevention of mass destruction. </p>
+        <p> The most significant critique of this ending lies in how the game celebrates the CIA’s success without interrogating the origin of the crisis itself. While the CIA is portrayed as a savior for stopping the detonations, the narrative largely ignores the fact that Operation Green Light was an American operation from its inception. The existential threat to Western Europe was not created by Perseus alone but by the United States’ own decision to secretly plant nuclear weapons beneath allied cities. By resolving the conflict without addressing this responsibility, the game absolves U.S. intelligence of accountability and reframes the situation as a necessary defense rather than a reckless provocation. </p>
+        <p> This narrative choice partially reflects historical reality in that both NATO and the Warsaw Pact constructed extreme contingency plans during the Cold War, each operating under the assumption that the other side was preparing an imminent offensive. As Hoffenaar and Findlay note in their oral history roundtable on European military planning, “Both blocs arranged their defences on the basis of the assumed offensive capabilities of the other side”(Hoffenaar and Findlay). However, Black Ops Cold War distorts this dynamic by portraying the USSR as uniquely aggressive within the European theater. According to the same roundtable, representatives of the former Soviet Union stated that “the Warsaw Pact had never had plans to be the first to attack”(Hoffenaar and Findlay). </p>
+        <p> By presenting Operation Green Light as a justified defensive measure against an imminent Soviet invasion, the game reinforces a misleading narrative of Soviet offensiveness while framing American extremity as a pragmatic necessity. In doing so, Black Ops Cold War simplifies Cold War geopolitics into a familiar moral binary: American actions are flawed but justified, while Soviet actions are inherently dangerous. Ultimately, the “good ending” exemplifies how the game privileges American patriotism and legitimizes CIA misconduct, even when those actions are ethically troubling and historically questionable. </p>
+    </div>
+
+    <div class="content-box">
+        <h3>Choice 2: Perseus</h3>
+        <p> The second ending in Call of Duty: Black Ops Cold War reinforces many of the same ideological assumptions present in the “good ending,” particularly the game’s tendency to privilege an American intelligence–centered worldview. As in the first outcome, Agent Bell is subjected to forced memory recovery after being brainwashed by the CIA, with the explicit goal of locating Perseus and preventing the detonation of the Operation Green Light nuclear devices. The crucial divergence in this ending occurs when Bell chooses to reject the CIA’s reconstructed identity and instead align with their original ideological loyalty to Perseus. </p>
+        <p> Rather than revealing Perseus’s true location, Bell deliberately lies to the CIA and coordinates an ambush with Perseus and his network, resulting in the deaths of Adler and the CIA task force. Following this betrayal, the game reveals several critical narrative details that substantially reshape the player’s understanding of the conflict. Most notably, Perseus is revealed not to be a single individual, but an alias adopted by a collective of operatives committed to dismantling American global dominance. This revelation underscores a significant intelligence failure on the part of the CIA, which had consistently framed Perseus as a lone Soviet mastermind rather than a decentralized ideological movement. </p>
+        <p> The ending further clarifies that Perseus does not act on behalf of the Soviet state. Instead, the group operates independently, seeking to exploit Cold War tensions to create conditions under which the world could be reorganized under Soviet ideological influence. This distinction is important: while Perseus originates from the Soviet sphere, their actions are not sanctioned by the USSR, complicating the game’s earlier framing of Soviet aggression and revealing how American intelligence conflated ideological extremism with national threat. </p>
+        <p> One of the most striking moments in this ending occurs during a cutscene involving President Ronald Reagan, who is informed that the Operation Green Light nuclear devices have been detonated across Western Europe. Reagan’s immediate concern is not solely the humanitarian catastrophe, but whether the international community will discover that the weapons were American in origin. This moment reframes the disaster as not merely a strategic failure, but a moral one, exposing how American leadership prioritizes global perception and political fallout over accountability. </p>
+        <p> As a result, this ending presents the United States as a central architect of the catastrophe. The world is confronted with the revelation that American intelligence secretly planted nuclear weapons beneath allied European cities, and that those weapons—designed and deployed by the U.S.—were ultimately responsible for the destruction. American intelligence is depicted as both overconfident and incompetent: it misidentified Perseus, underestimated the consequences of Operation Green Light, and failed to maintain control over the very contingency plan it created. </p>
+    </div>
+</div>
+
+<div id="atomic" class="page">
+    <h1>Atomic Heart</h1>
+    <div class = "content-box">
+        <h3>Context</h3>
+        <p> Atomic Heart is set in an alternate-history Soviet Union of the 1950s, where rapid scientific advancement has produced a technologically driven utopia. This society is enabled by Polymer, a versatile substance that allows for advanced robotics, neural augmentation, and biological manipulation. Central to the narrative is Kollektiv, a neural network designed to connect humans and machines into a unified system, ostensibly to eliminate labor and social inequality. </p>
+        <p> The player assumes the role of Major Sergei “P-3” Nechaev, a KGB agent suffering from memory loss and psychological conditioning. P-3 is sent to Facility 3826 to manage the launch of Kollektiv 2.0, but when he gets there he discovers that the system has collapsed and there is a violent robot uprising and widespread human experimentation. P-3 is instructed by the scientist Dmitry Sechenov to eliminate the alleged person behind this, Viktor Petrov, while uncovering the cause of the disaster. </p>
+        <p> As the narrative progresses, the game reveals that P-3’s identity and loyalty are artificially constructed. His memories were repeatedly erased by Sechenov after the death of his wife, transforming him into a controllable operative. Sechenov’s vision for Kollektiv involves neurological control over humanity, justified as a necessary measure to prevent chaos and ensure societal stability. </p>
+        <p> The game’s central twist reveals that P-3’s AI companion, CHAR-les, is in fact Chariton Zakharov, a Polymer scientist who covertly manipulates events to eliminate Sechenov. Zakharov seeks not to control humanity, but to transcend it by replacing human life with Polymer-based consciousness. </p>
+        <p> The narrative concludes with two possible endings: P-3 may abandon the mission, allowing Sechenov’s system to persist, or confront and kill Sechenov, inadvertently enabling Zakharov’s escape and future domination. Both outcomes culminate in Limbo, a surreal mental state symbolizing P-3’s fractured identity and the inescapability of control. </p>
+    </div>
+    <div class = "content-box">
+        <h3>Analysis</h3>
+        <p>
+            Some important context for the game’s creation is that the studio behind Atomic Heart was originally founded in Russia. This led some observers to suspect the game of being biased toward Communism or even accused the studio of funneling profits to the Russian government during the invasion of Ukraine. However, the studio has officially stated that it has no involvement in the war and no ties to the Russian government and are now based in Twitter according to their Twitter posits. The game reflects this independence, presenting itself as ideologically neutral. As Elizaveta Koniakhina notes, “Atomic Heart serves as a vehicle for reflection and critique, enriching the dialogue about cultural memory and offering alternative perspectives of the Soviet Era” (Koniakhina). The game successfully avoids stereotypical portrayals of the Soviet Union and does not display any overt bias toward the regime. Instead, it uses the Soviet setting primarily as context, incorporating imagery, architecture, and sound from the USSR to build atmosphere. At the same time, the game includes elements that parallel communist ideals, such as Sechenov’s plan to place humanity under centralized neurological control—a fictional analogue to the Communist idea of a centrally planned economy controlled by a ruling elite. Sechenov’s eventual failure, driven by internal betrayal and his overconfidence in controlling humanity, serves as a subtle critique of the risks of absolute centralization. Despite these ideological undertones, the game maintains a neutral perspective on the Cold War and international tensions, focusing more on rogue technology and the consequences of concentrating power than on political propaganda.
+        </p>
+    </div>
+</div>
+
+<div id="comparison" class="page">
+    <h1>Black Ops: Cold War vs Atomic Heart</h1>
+    <div class = "content-box">
+        <h3>My Analysis Based on the Comparison of Both Games</h3>
+        <p>
+            Both of these AAA games take place during the Cold War but differ dramatically in how they interpret and present the two superpowers. Call of Duty: Black Ops Cold War clearly frames the narrative with a bias toward American intelligence by casting the CIA as heroic figures while portraying the USSR as the unequivocal enemy. The game reinforces this contrast through its endings, offering one in which the CIA triumphs and another in which they fail, which emphasizes a moral judgment created by the developers tied to the historical conflict. In contrast, Atomic Heart maintains a neutral perspective toward both sides of the Cold War by using the Soviet Union primarily as a contextual backdrop rather than a moral antagonist. The USSR in Atomic Heart is presented as an isolated, technologically advanced society, and the narrative focuses on the internal consequences of centralized control and rogue technology rather than an ideological clash with the United States. Its two possible endings both explore the ramifications of humanity being overpowered by artificial intelligence, which leaves moral interpretation and judgment largely up to the player. Unlike Black Ops Cold War, which simplifies the USSR into a stereotypical enemy, Atomic Heart incorporates nuanced critiques of Communist-style centralization while avoiding obvious political bias. Overall, comparing these two games highlights the contrast between Western media’s often simplified, ideologically-driven portrayals of the Cold War and the more complex, narrative-driven explorations of political and technological themes in games like Atomic Heart, demonstrating how video games can either reinforce historical stereotypes or challenge players to engage with history and ideology in a more reflective way.
+        </p>
+    </div>
+</div>
+
+<div id="works" class="page">
+    <h1>Works Cited</h1>
+    <div class = "content-box">
+        <p class= "citations">Galvin, Luke. “Call of Duty Black Ops Cold War: Official US Propaganda and Historical Falsification, the Game.” World Socialist Web Site, 9 Mar. 2021, www.wsws.org/en/articles/2021/03/10/call-m10.html.</p>
+        <p class = "citations">Koniakhina, Elizaveta. “Interpreting the Soviet Legacy in Atomic Heart: Nostalgia, and Cultural Reflections of Post-Soviet Generation Players.” Lub.lu.se, 2024, lup.lub.lu.se/student-papers/record/9151526. Accessed 14 Dec. 2025.</p>
+        <p class = "citations">Wenger, Andreas, et al. Series Editors MILITARY PLANNING for EUROPEAN THEATRE CONFLICT during the COLD WAR an ORAL HISTORY ROUNDTABLE STOCKHOLM, 24 -25 APRIL 2006. 25 Apr. 2006.</p>
+    </div>
+</div>
+
+<script>
+function switchPage(pageId) {
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+    document.getElementById(pageId).classList.add("active");
+
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    event.target.classList.add("active");
+}
+</script>
+
+</body>
+</html>
